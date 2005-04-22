@@ -1,0 +1,11 @@
+--- a/acinclude.m4~	2003-05-15 04:05:11.000000000 +0300
++++ b/acinclude.m4	2004-10-19 15:36:27.000000000 +0300
+@@ -44,7 +44,7 @@
+         for dir in $mysql_lib; do
+             if test "x$mysql_found" != "xyes"
+             then
+-                if test -f "$dir/libmysqlclient.a" ;
++                if test -f "$dir/libmysqlclient.so" ;
+                 then
+                     LIBS="-L$dir $SAVE_LIBS $LIBZ_LIB"
+                     MYSQL_LIB="-L$dir -lmysqlclient $LIBZ_LIB"
