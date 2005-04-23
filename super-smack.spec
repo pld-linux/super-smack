@@ -1,4 +1,5 @@
-Summary:	super-smack
+Summary:	super-smack - MySQL benchmarking and stress-testing tool
+Summary(pl):	super-smack - narzêdzie do sprawdzania wydajno¶ci i testowania MySQL-a
 Name:		super-smack
 Version:	1.2
 Release:	0.1
@@ -12,12 +13,21 @@ URL:		http://jeremy.zawodny.com/mysql/super-smack/
 BuildRequires:	mysql-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define		_localstatedir	/var/lib
+
 %description
 MySQL Super Smack is a benchmarking, stress testing, and load
 generation tool for MySQL. Like the apache bench (ab) tool that ships
 with Apache, super smack helps to give you a handle on how well your
 server will perform. It's an invaluable testing and tuning aid.
 
+%description -l pl
+MySQL Super Smack to narzêdzie do sprawdzania wydajno¶ci, testowania
+pod obci±¿eniem oraz generowania obci±¿enia dla MySQL-a. Podobnie jak
+narzêdzie apache bench (ab) dostarczane z Apachem, super smack pomaga
+w ocenie, jak dobrze sprawuje siê serwer. Jest to nieoceniona pomoc
+przy testowaniu i tuningu.
+ 
 %prep
 %setup -q
 #%patch0 -p1
