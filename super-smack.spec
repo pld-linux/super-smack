@@ -27,7 +27,7 @@ pod obci±¿eniem oraz generowania obci±¿enia dla MySQL-a. Podobnie jak
 narzêdzie apache bench (ab) dostarczane z Apachem, super smack pomaga
 w ocenie, jak dobrze sprawuje siê serwer. Jest to nieoceniona pomoc
 przy testowaniu i tuningu.
- 
+
 %prep
 %setup -q
 #%patch0 -p1
