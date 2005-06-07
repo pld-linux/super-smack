@@ -11,6 +11,7 @@ Source0:	http://jeremy.zawodny.com/mysql/super-smack/%{name}-%{version}.tar.gz
 Patch0:		%{name}-lib.patch
 URL:		http://jeremy.zawodny.com/mysql/super-smack/
 BuildRequires:	mysql-devel
+BuildRequires:	sed >= 4.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_localstatedir	/var/lib
