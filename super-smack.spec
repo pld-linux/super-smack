@@ -49,8 +49,6 @@ rm -rf $RPM_BUILD_ROOT
 	DATADIR=$RPM_BUILD_ROOT%{_datadir}/%{name} \
 	SMACKS_DIR=$RPM_BUILD_ROOT%{_localstatedir}/%{name}
 
-# LFS?
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
