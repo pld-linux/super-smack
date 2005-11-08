@@ -2,7 +2,7 @@ Summary:	super-smack - MySQL benchmarking and stress-testing tool
 Summary(pl):	super-smack - narzêdzie do sprawdzania wydajno¶ci i testowania MySQL-a
 Name:		super-smack
 Version:	1.2
-Release:	0.1
+Release:	2
 # I guess it's GPL
 License:	GPL
 Group:		Applications/Databases
